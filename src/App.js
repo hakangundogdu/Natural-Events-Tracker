@@ -19,8 +19,6 @@ function App() {
       setLoading(false);
     };
     fetchEvents();
-
-    console.log(eventData);
   }, []);
 
   return (
