@@ -1,10 +1,10 @@
-import { HiFire } from 'react-icons/hi';
+import { HiGlobeAlt } from 'react-icons/hi';
 
 const Header = () => {
   return (
     <header className="header">
-      <HiFire className="header-icon" />
-      <h1>Wildfire Tracker</h1>
+      <HiGlobeAlt className="header-icon" />
+      <h1>Natural Events Tracker</h1>
     </header>
   );
 };

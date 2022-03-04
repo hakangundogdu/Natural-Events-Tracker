@@ -1,13 +1,14 @@
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   overflow: hidden;
 }
 
 .header {
   padding: 10px;
   padding-left: 20px;
-  background-color: firebrick;
+  background-color: #06b6d4;
+
   color: #fff;
   position: fixed;
   top: 0;
@@ -36,8 +37,21 @@ body {
 
 .location-icon {
   font-size: 2rem;
-  color: red;
+  color: #06b6d4;
   cursor: pointer;
+}
+.loader-icon {
+  font-size: 4rem;
+  color: #06b6d4;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .loader {
@@ -47,32 +61,44 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
-.loader h1 {
-  margin-bottom: 20px;
-}
 
 .loader p {
   color: gray;
+  font-size: 1.2rem;
 }
 
 .location-info {
   position: absolute;
-  top: 80px;
-  right: 50px;
-  width: 400px;
+  top: 100px;
+  right: 100px;
+  width: 300px;
   min-height: 200px;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
+  background-color: #06b6d4;
+  border-radius: 20px;
   font-size: 18px;
   color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.location-info ul {
-  list-style-type: none;
-  padding: 0;
+.footer {
+  padding: 10px;
+  padding-left: 40px;
+  background-color: #ecfeff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 90;
+  display: flex;
+  align-items: center;
 }
 
-.location-info li {
-  padding: 5px 0;
+.footer p,
+a {
+  font-size: 16px;
+  color: #0e7490;
+  margin: 0;
+  text-align: left;
+  text-decoration: none;
 }

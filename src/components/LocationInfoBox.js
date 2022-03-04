@@ -1,15 +1,16 @@
 const LocationInfoBox = ({ info }) => {
+  // let title = info.title.slice(info.title.indexOf('-') + 2);
+
   return (
     <div className="location-info">
-      <h2>Event Location Info</h2>
-      <ul>
-        <li>
-          ID: <strong>{info.id}</strong>
-        </li>
-        <li>
-          TITLE: <strong>{info.title}</strong>
-        </li>
-      </ul>
+      <h2>{info.category}</h2>
+
+      <p>
+        <strong>Location: </strong> {info.title}
+      </p>
+      <p>
+        <strong>Date: </strong> {info.date.slice(0, 10)}
+      </p>
     </div>
   );
 };

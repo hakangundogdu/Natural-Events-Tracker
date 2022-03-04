@@ -1,10 +1,9 @@
-import spinner from '../assets/805.gif';
+import { ImSpinner5 } from 'react-icons/im';
 
 const Loader = () => {
   return (
     <div className="loader">
-      <h1>Fire Tracker</h1>
-      <img src={spinner} alt="Loading" />
+      <ImSpinner5 className="loader-icon" />
       <p>Loading...</p>
     </div>
   );

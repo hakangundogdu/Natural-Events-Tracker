@@ -8,20 +8,22 @@ const Map = ({ eventData, center, zoom }) => {
   const key = process.env.REACT_APP_API_KEY;
 
   const markers = eventData.map((ev) => {
-    return (
-      <LocationMarker
-        lat={ev.geometry[0].coordinates[1]}
-        lng={ev.geometry[0].coordinates[0]}
-        onClick={() =>
-          setLocationInfo({
-            id: ev.id,
-            category: ev.categories[0].title,
-            title: ev.title,
-            date: ev.geometry[0].date,
-          })
-        }
-      />
-    );
+    if (ev.categories[0].id === 'wildfires') {
+      return (
+        <LocationMarker
+          lat={ev.geometry[0].coordinates[1]}
+          lng={ev.geometry[0].coordinates[0]}
+          onClick={() =>
+            setLocationInfo({
+              id: ev.id,
+
+              title: ev.title,
+            })
+          }
+        />
+      );
+    }
+    return null;
   });
 
   return (
