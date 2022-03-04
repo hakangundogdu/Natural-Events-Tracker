@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Natural-Events-Tracker/static/css/main.c11eb6cd.css",
+    "main.js": "/Natural-Events-Tracker/static/js/main.ac15e97c.js",
+    "static/js/787.a9e93c57.chunk.js": "/Natural-Events-Tracker/static/js/787.a9e93c57.chunk.js",
+    "index.html": "/Natural-Events-Tracker/index.html",
+    "main.c11eb6cd.css.map": "/Natural-Events-Tracker/static/css/main.c11eb6cd.css.map",
+    "main.ac15e97c.js.map": "/Natural-Events-Tracker/static/js/main.ac15e97c.js.map",
+    "787.a9e93c57.chunk.js.map": "/Natural-Events-Tracker/static/js/787.a9e93c57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c11eb6cd.css",
+    "static/js/main.ac15e97c.js"
+  ]
+}
