@@ -6,4 +6,4 @@ Powered by NASA
 
 - [Live](https://hakangundogdu.github.io/Natural-Events-Tracker)
 
-<a href="https://hakangundogdu.github.io/Natural-Events-Tracker">![NWS](https://github.com/hakangundogdu/task-app/raw/master/src/tracker.png)</a>
+<a href="https://hakangundogdu.github.io/Natural-Events-Tracker">![NWS](https://github.com/hakangundogdu/Natural-Events-Tracker/raw/master/src/tracker.png)</a>
