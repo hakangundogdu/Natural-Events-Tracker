@@ -4,12 +4,13 @@ const LocationInfoBox = ({ info }) => {
   return (
     <div className="location-info">
       <h2>{info.category}</h2>
-
       <p>
-        <strong>Location: </strong> {info.title}
+        <span className="location-subtitle">Location: </span>
+        {info.title}
       </p>
       <p>
-        <strong>Date: </strong> {info.date.slice(0, 10)}
+        <span className="location-subtitle">Date: </span>{' '}
+        {info.date.slice(0, 10)}
       </p>
     </div>
   );

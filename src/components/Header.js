@@ -1,9 +1,9 @@
-import { HiGlobeAlt } from 'react-icons/hi';
+import globe from '../Assets/Globe.png';
 
 const Header = () => {
   return (
     <header className="header">
-      <HiGlobeAlt className="header-icon" />
+      <img src={globe} alt="Globe" />
       <h1>Natural Events Tracker</h1>
     </header>
   );
