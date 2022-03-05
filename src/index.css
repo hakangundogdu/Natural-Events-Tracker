@@ -38,7 +38,7 @@ body {
 
 .location-icon {
   font-size: 2rem;
-  color: #dc2626;
+  color: red;
   cursor: pointer;
 }
 .loader-icon {
