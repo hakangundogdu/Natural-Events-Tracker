@@ -21,14 +21,11 @@ function App() {
       setLoading(false);
     };
     fetchEvents();
-    console.log(eventData);
   }, []);
 
   return (
     <div className="App">
-      <Header />
       {!loading ? <Map eventData={eventData} /> : <Loader />}
-      <Footer />
     </div>
   );
 }

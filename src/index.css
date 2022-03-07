@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   overflow: hidden;
+  height: 100vh;
 }
 
 .header {
@@ -32,8 +33,13 @@ body {
 
 .map {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  display: block;
   position: relative;
+}
+.map-container {
+  position: absolute;
+  height: 97%;
 }
 
 .location-icon {
@@ -73,7 +79,6 @@ body {
   top: 100px;
   right: 100px;
   width: 300px;
-  min-height: 200px;
   padding: 30px;
   background-color: #fff;
   border-radius: 16px;
@@ -83,7 +88,12 @@ body {
 }
 
 .location-info p {
-  color: #6b7280;
+  color: #2f2f30;
+  margin: 10px 0 0 0;
+}
+.location-info h2 {
+  color: #2f2f30;
+  margin: 0 0 0 0;
 }
 .location-subtitle {
   color: #06b6d4;
@@ -125,19 +135,19 @@ a {
     background-color: #fff;
     border-radius: 0px;
   }
+
+  .footer {
+    font-size: 12px;
+    padding: 16px;
+  }
   .header {
-    justify-content: center;
-    padding-left: 0px;
+    padding-left: 16px;
   }
   .header img {
     padding-left: 0px;
   }
 
-  .footer {
-    font-size: 12px;
-    padding: 10px;
-  }
   .map {
-    height: 87vh;
+    height: 100vh;
   }
 }
