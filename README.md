@@ -6,7 +6,7 @@ Powered by NASA
 
 - [Live](https://hakangundogdu.github.io/Natural-Events-Tracker)
 
-![](src/assets/project.png)
+![](/src/Assets/project.png)
 
 ### How to use
 
